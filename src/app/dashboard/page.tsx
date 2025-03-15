@@ -4,7 +4,7 @@ import axios from "axios";
 import Image from "next/image";
 
 // API URL constants
-const API_BASE_URL = "http://localhost:5000/api"; // Replace with actual API URL
+const API_BASE_URL = "https://nibret-crm-back.onrender.com/api"; // Replace with actual API URL
 
 // Fetch statistics data
 const fetchStatistics = async () => {
@@ -125,7 +125,7 @@ const Login = () => {
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeWidth="2"
                       d="m1 1 4 4 4-4"
                     />
                   </svg>
@@ -187,7 +187,7 @@ const Login = () => {
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeWidth="2"
                       d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
                     />
                   </svg>

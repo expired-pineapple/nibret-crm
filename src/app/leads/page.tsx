@@ -5,7 +5,7 @@ import Link from "next/link";
 const fetchLeads = async () => {
   try {
     const response = await fetch(
-      "http://localhost:5000/api/prospects/all-with-activity"
+      "https://nibret-crm-back.onrender.com/api/prospects/all-with-activity"
     ); // Update URL if needed
     if (!response.ok) throw new Error("Failed to fetch leads");
     return await response.json();
@@ -66,7 +66,7 @@ const Leads = () => {
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeWidth="2"
                       d="m1 1 4 4 4-4"
                     />
                   </svg>
@@ -128,7 +128,7 @@ const Leads = () => {
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeWidth="2"
                       d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
                     />
                   </svg>
